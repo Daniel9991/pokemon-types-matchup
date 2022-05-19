@@ -1,5 +1,5 @@
 {
-  "name": "react-app",
+  "name": "pokemon-types-matchup",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
