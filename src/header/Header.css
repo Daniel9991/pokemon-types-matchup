@@ -1,0 +1,57 @@
+@font-face {
+	font-family: 'Inter-SemiBold';
+	src: local('Inter-SemiBold'), url(../assets/fonts/Inter-SemiBold.ttf) format('truetype');
+	/* other formats include: 'woff2', 'truetype, 'opentype',
+							  'embedded-opentype', and 'svg' */
+}
+
+header{
+	margin: 2rem auto 2rem;
+	width: fit-content;
+}
+
+.header-title{
+	font-size: 3rem;
+	font-family: Inter-SemiBold;
+	margin-bottom: 2rem;
+}
+
+.under-bar{
+	display: flex;
+	width: 100%;
+	position: relative;
+}
+
+.under-bar-red{
+	flex: 1;
+	height: 5px;
+	background-color: #FF0000;
+}
+
+.under-bar-white{
+	flex: 1;
+	height: 5px;
+	background-color: #FFF;
+}
+
+.under-bar-ball{
+	background-color: #443F3F;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 10;
+}
+
+.under-bar-ball-center{
+	background-color: #FFF;
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+}

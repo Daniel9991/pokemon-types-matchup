@@ -1,0 +1,8 @@
+.app{
+	/* To prevent margin collapsing */
+	padding-top: 0.1px; 
+	
+	background-color: #0B0827;
+	color: white;
+	min-height: 100vh;
+}
